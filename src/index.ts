@@ -1,0 +1,1 @@
+export { IAssetVariantDescriptor } from "./IAssetVariantDescriptor";
