@@ -1,4 +1,4 @@
-import { List } from "@bombitmanbomb/utils";
+import type { List } from "@bombitmanbomb/utils";
 export interface IAssetVariantDescriptor {
 	OriginalAsset: boolean;
 	IsValid: boolean;
