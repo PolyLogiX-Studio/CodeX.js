@@ -1,11 +1,11 @@
 {
 	"name": "@bombitmanbomb/codex",
-	"version": "0.0.1-alpha.2",
+	"version": "0.0.1-alpha.3",
 	"description": "Neos CodeX",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"scripts": {
-		"test": "node Tests/Test.js --unhandled-rejections=strict",
+		"test": "jest",
 		"lint": "prettier --use-tabs --write ./src/. && eslint -c .eslintrc.json --fix ./src/**/*",
 		"document": "jsdoc -t node_modules/docdash ./src/ -c jsdoc.json -d ./docs/",
 		"ready": "npm run document && npm run lint",
