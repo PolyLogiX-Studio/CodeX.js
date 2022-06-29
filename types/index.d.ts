@@ -1,5 +1,3 @@
-// created from 'create-ts-index'
-
 export * from './ChannelConfiguration';
 export * from './IAssetMetadata';
 export * from './IAssetVariantDescriptor';

@@ -5,13 +5,13 @@ export interface IAudioSample {
 
     THIS(ch:number):number
 
-     ToMono():MonoSample;
+     ToMono():unknown;
 
-     ToStereo():StereoSample;
+     ToStereo():unknown;
 
-     ToQuad():QuadSample;
+     ToQuad():unknown;
 
-     ToSurround51():Surround51Sample;
+     ToSurround51():unknown;
 
     readonly AbsoluteAmplitude:number
 }
